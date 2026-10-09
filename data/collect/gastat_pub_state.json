@@ -21,6 +21,13 @@
 "status": "downloaded",
 "t": 1788772686558
 },
+"/documents/20117/2435259/Business+Confidence+Index+AR_EN.xlsx/f4258e07-7e1a-906d-dfa1-ba222ff25c98": {
+"at": "2026-10-09",
+"path": "raw/history/gastat_pub/business_confidence_index/2026-10-09/Business Confidence Index AR_EN.xlsx",
+"size": 151203,
+"status": "downloaded",
+"t": 1791362039629
+},
 "/documents/20117/2435259/CCI-Jul+2026-AR-EN.xlsx/31900b70-800f-a99f-2faa-d4135560b1c2": {
 "at": "2026-09-30",
 "path": "raw/history/gastat_pub/the_construction_cost_index/2026-08-20/CCI-Jul 2026-AR-EN.xlsx",
@@ -609,6 +616,16 @@
 "full_discover": false,
 "listing_failures": 0,
 "mb": 0.0,
+"mode": "update",
+"skipped_size": 0
+},
+{
+"added": 1,
+"date": "2026-10-09",
+"failed": 0,
+"full_discover": false,
+"listing_failures": 0,
+"mb": 0.2,
 "mode": "update",
 "skipped_size": 0
 }
