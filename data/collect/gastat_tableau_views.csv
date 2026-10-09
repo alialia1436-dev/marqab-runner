@@ -1,0 +1,2 @@
+slug,url,priority,every_days,note
+census2022_population_city,https://tableau.stats.gov.sa/views/TA12-PopulationbyGenderbyRegionGovernorateCityandNationality_17298111314390/PopulationbyGenderbyRegionGovernorateCityandNationalityCSV.csv,1,30,تعداد 2022 السكان حسب المنطقة والمحافظة والمدينة والجنس والجنسية (48902 صفًا)

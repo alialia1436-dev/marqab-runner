@@ -1,0 +1,638 @@
+{
+"baseline_stamp": 1789498255552,
+"files": {
+"/documents/20117/0/Household_Income_and_Consumption_Expenditure_Survey23_EN.pdf_fixed_2614249/c289343c-4af7-7f49-a8c5-9d8c56a91586": {
+"at": "2026-09-29",
+"path": "raw/history/gastat_pub/hies/2026-09-29/Household_Income_and_Consumption_Expenditure_Survey23_EN.pdf",
+"status": "downloaded",
+"t": 1740660442317
+},
+"/documents/20117/2435245/Business_Confidence_Index_AR_EN_%282%29.xlsx_fixed_15066665/a8174ac7-3f9b-762f-5a92-22ac184a4dcc": {
+"at": "2026-09-30",
+"path": "raw/history/gastat_pub/business_confidence_index/2026-06-08/Business_Confidence_Index_AR_EN_(2).xlsx",
+"size": 149284,
+"status": "downloaded",
+"t": 1780916632424
+},
+"/documents/20117/2435245/Umrah+Statistics+for+Q4+of+2025+EN+%281%29.xlsx/d785f48e-6d14-0b7a-290d-4a0b4d256f09": {
+"at": "2026-09-30",
+"path": "raw/history/gastat_pub/umrah/2026-09-07/Umrah Statistics for Q4 of 2025 EN (1).xlsx",
+"size": 416615,
+"status": "downloaded",
+"t": 1788772686558
+},
+"/documents/20117/2435259/CCI-Jul+2026-AR-EN.xlsx/31900b70-800f-a99f-2faa-d4135560b1c2": {
+"at": "2026-09-30",
+"path": "raw/history/gastat_pub/the_construction_cost_index/2026-08-20/CCI-Jul 2026-AR-EN.xlsx",
+"size": 214264,
+"status": "downloaded",
+"t": 1787218158343
+},
+"/documents/20117/2435259/Fisheries+and+Aquaculture+Statistics+2025+EN.xlsx/ab8efda7-8449-e771-1ebc-4c2a794dcc99": {
+"at": "2026-10-06",
+"path": "raw/history/gastat_pub/fishing_and_aquaculture/2026-10-06/Fisheries and Aquaculture Statistics 2025 EN.xlsx",
+"size": 312591,
+"status": "downloaded",
+"t": 1791101188786
+},
+"/documents/20117/2435259/UMR_ANN2021_%281%29.xlsx_fixed_2467851/755e8dce-92dd-e7d2-5619-103943d4b327": {
+"at": "2026-09-30",
+"path": "raw/history/gastat_pub/umrah/2024-12-13/UMR_ANN2021_(1).xlsx",
+"size": 223048,
+"status": "downloaded",
+"t": 1734112535201
+},
+"/documents/20117/2435259/Umrah_Statistics_2022_En.xlsx_fixed_2467725/e1b17454-23fa-9502-2221-f117adb63510": {
+"at": "2026-09-30",
+"path": "raw/history/gastat_pub/umrah/2024-12-13/Umrah_Statistics_2022_En.xlsx",
+"size": 171793,
+"status": "downloaded",
+"t": 1734111938531
+},
+"/documents/20117/2435259/Umrah_Statistics_2023_EN.xlsx_fixed_2467701/f25fca07-5c03-5ff2-6fc3-cdb9a00568f1": {
+"at": "2026-09-30",
+"path": "raw/history/gastat_pub/umrah/2024-12-13/Umrah_Statistics_2023_EN.xlsx",
+"size": 215369,
+"status": "downloaded",
+"t": 1734111884146
+},
+"/documents/20117/2435259/WR+T.+Q2+2026+EN.pdf/93f52ddc-3fce-dbda-ff1c-45425f3ccb81": {
+"at": "2026-09-29",
+"path": "raw/history/gastat_pub/wholesale_retail_trade/2026-09-29/WR T. Q2 2026 EN.pdf",
+"status": "downloaded",
+"t": 1787812570836
+},
+"/documents/20117/2435259/jdwl_tdd_lmnshat_2010_0_0.xlsx_fixed_2464759/65746644-a8f7-9fe9-9918-f6870f9dc70f": {
+"at": "2026-09-29",
+"path": "raw/history/gastat_pub/establishments_region_legacy/2026-09-29/jdwl_tdd_lmnshat_2010_0_0.xlsx",
+"status": "downloaded",
+"t": 1734043075345
+},
+"/documents/20117/2435259/nskh_mn_ntyj_lmsh_lqtsdy_llmwsst_2018_0_%281%29.xlsx_fixed_2465023/09a036aa-15d1-86a7-50da-1c17912e765a": {
+"at": "2026-09-29",
+"path": "raw/history/gastat_pub/establishments_region_legacy/2026-09-29/nskh_mn_ntyj_lmsh_lqtsdy_llmwsst_2018_0_(1).xlsx",
+"status": "downloaded",
+"t": 1734044733687
+},
+"/documents/20117/2435259/umrah_2017_0.xlsx_fixed_2467773/d83d33b9-258e-42f6-e23d-96bc46aa734b": {
+"at": "2026-09-30",
+"path": "raw/history/gastat_pub/umrah/2024-12-13/umrah_2017_0.xlsx",
+"size": 574165,
+"status": "downloaded",
+"t": 1734112108790
+},
+"/documents/20117/2435259/umrah_statistics_bulletin_2018.xlsx_fixed_2467785/a9fb4363-74a8-dcf6-e6e2-a3d09db99477": {
+"at": "2026-09-30",
+"path": "raw/history/gastat_pub/umrah/2024-12-13/umrah_statistics_bulletin_2018.xlsx",
+"size": 573838,
+"status": "downloaded",
+"t": 1734112235211
+},
+"/documents/20117/2435259/umrah_statistics_bulletin_2019.xlsx_fixed_2467821/f9121992-d5ba-8d8d-dd78-2f0ea57a80b3": {
+"at": "2026-09-30",
+"path": "raw/history/gastat_pub/umrah/2024-12-13/umrah_statistics_bulletin_2019.xlsx",
+"size": 509173,
+"status": "downloaded",
+"t": 1734112406089
+},
+"/documents/20117/2435259/umrah_statistics_bulletin_2020_%281%29.xlsx_fixed_2467875/cfb3d90b-90b6-9f1a-35bd-1d9fb978b72b": {
+"at": "2026-09-30",
+"path": "raw/history/gastat_pub/umrah/2024-12-13/umrah_statistics_bulletin_2020_(1).xlsx",
+"size": 463843,
+"status": "downloaded",
+"t": 1734112688633
+},
+"/documents/20117/2435259/umrah_survey_2016_0.xlsx_fixed_2467749/a725a8b9-2261-e222-03f7-01defcb33647": {
+"at": "2026-09-30",
+"path": "raw/history/gastat_pub/umrah/2024-12-13/umrah_survey_2016_0.xlsx",
+"size": 254310,
+"status": "downloaded",
+"t": 1734112027425
+},
+"/documents/20117/2435267/APGSTables-Aug2026+AR-EN+%281%29.xlsx/25d4270c-624f-822f-36ae-6a632c13bd97": {
+"at": "2026-09-29",
+"path": "raw/history/gastat_pub/average_prices/2026-09-29/APGSTables-Aug2026 AR-EN (1).xlsx",
+"status": "downloaded",
+"t": 1789447876013
+},
+"/documents/20117/2435267/Average+Prices+of+Goods+and+Services+Aug+2026+AR_EN+%281%29.pdf/d9a578f2-24e4-1c5f-a0a6-c1143b9caf31": {
+"at": "2026-09-29",
+"path": "raw/history/gastat_pub/average_prices/2026-09-29/Average Prices of Goods and Services Aug 2026 AR_EN (1).pdf",
+"status": "downloaded",
+"t": 1789447858946
+},
+"/documents/20117/2435267/Business+Confidence+Index+AR_EN+%282%29.xlsx/47dd55cd-abc5-9e74-e90a-0182b0216ce9": {
+"at": "2026-09-30",
+"path": "raw/history/gastat_pub/business_confidence_index/2026-08-09/Business Confidence Index AR_EN (2).xlsx",
+"size": 149704,
+"status": "downloaded",
+"t": 1786253552418
+},
+"/documents/20117/2435267/Business+Confidence+Index+AR_EN+%283%29.xlsx/42d57f1a-8427-d1db-e395-e1b737afc559": {
+"at": "2026-09-30",
+"path": "raw/history/gastat_pub/business_confidence_index/2026-09-08/Business Confidence Index AR_EN (3).xlsx",
+"size": 151975,
+"status": "downloaded",
+"t": 1788861062679
+},
+"/documents/20117/2435267/Business+Confidence+Index+AR_EN.xlsx/120f4960-948b-8843-83d8-0897aec3fbda": {
+"at": "2026-09-30",
+"path": "raw/history/gastat_pub/business_confidence_index/2026-07-08/Business Confidence Index AR_EN.xlsx",
+"size": 151346,
+"status": "downloaded",
+"t": 1783502727260
+},
+"/documents/20117/2435267/Business_Confidence_Index_%281%29.xlsx_fixed_10330362/5df42a7d-0705-a011-c966-76ad1d5895d3": {
+"at": "2026-09-30",
+"path": "raw/history/gastat_pub/business_confidence_index/2025-12-31/Business_Confidence_Index_(1).xlsx",
+"size": 153219,
+"status": "downloaded",
+"t": 1767168549789
+},
+"/documents/20117/2435267/Business_Confidence_Index_%282%29.xlsx_fixed_10556585/14080c06-28e6-0b3c-6e85-3cb208f773ea": {
+"at": "2026-09-30",
+"path": "raw/history/gastat_pub/business_confidence_index/2026-01-08/Business_Confidence_Index_(2).xlsx",
+"size": 148573,
+"status": "downloaded",
+"t": 1767851844353
+},
+"/documents/20117/2435267/Business_Confidence_Index_AR-EN_%281%29.xlsx_fixed_11505453/cdd4801a-4d7c-0ca1-5a2c-52bd5e5b4a3e": {
+"at": "2026-09-30",
+"path": "raw/history/gastat_pub/business_confidence_index/2026-02-09/Business_Confidence_Index_AR-EN_(1).xlsx",
+"size": 148693,
+"status": "downloaded",
+"t": 1770615665864
+},
+"/documents/20117/2435267/Business_Confidence_Index_AR-EN_%282%29.xlsx_fixed_12293905/880cc242-7be9-6f3f-7a86-8a90170610e4": {
+"at": "2026-09-30",
+"path": "raw/history/gastat_pub/business_confidence_index/2026-03-08/Business_Confidence_Index_AR-EN_(2).xlsx",
+"size": 148723,
+"status": "downloaded",
+"t": 1772957703307
+},
+"/documents/20117/2435267/Business_Confidence_Index_AR_EN_%284%29.xlsx_fixed_13885493/95b1bdeb-40d0-82dc-4338-bc08a4b7f805": {
+"at": "2026-09-30",
+"path": "raw/history/gastat_pub/business_confidence_index/2026-04-27/Business_Confidence_Index_AR_EN_(4).xlsx",
+"size": 149012,
+"status": "downloaded",
+"t": 1777287120920
+},
+"/documents/20117/2435267/Business_Confidence_Index_AR_EN_%285%29.xlsx_fixed_14120287/8470934a-36d5-bbf3-74b7-a36b7002c461": {
+"at": "2026-09-30",
+"path": "raw/history/gastat_pub/business_confidence_index/2026-05-06/Business_Confidence_Index_AR_EN_(5).xlsx",
+"size": 149189,
+"status": "downloaded",
+"t": 1778053810942
+},
+"/documents/20117/2435267/Business_Demography_2024_%281%29.xlsx_fixed_10329283/ff2d7c18-ce38-3400-6d3a-dede484b50f4": {
+"at": "2026-09-29",
+"path": "raw/history/gastat_pub/business_demography/2026-09-29/Business_Demography_2024_(1).xlsx",
+"status": "downloaded",
+"t": 1767155516262
+},
+"/documents/20117/2435267/Business_Demography_2024_EN.pdf_fixed_10329293/7e34c0d6-904a-f02d-5ff0-19efdeaca37b": {
+"at": "2026-09-29",
+"path": "raw/history/gastat_pub/business_demography/2026-09-29/Business_Demography_2024_EN.pdf",
+"status": "downloaded",
+"t": 1767155572295
+},
+"/documents/20117/2435267/CCI-Aug+2026-AR-EN+%281%29.xlsx/0d117668-27f5-a5dc-2438-9e13add86f4c": {
+"at": "2026-09-30",
+"path": "raw/history/gastat_pub/the_construction_cost_index/2026-09-21/CCI-Aug 2026-AR-EN (1).xlsx",
+"size": 214382,
+"status": "downloaded",
+"t": 1789985805953
+},
+"/documents/20117/2435267/CCI-Jun+2026-AR-EN+%282%29.xlsx/90dd4414-4c27-de5a-7a71-ccd3f5ac5934": {
+"at": "2026-09-30",
+"path": "raw/history/gastat_pub/the_construction_cost_index/2026-07-21/CCI-Jun 2026-AR-EN (2).xlsx",
+"size": 205160,
+"status": "downloaded",
+"t": 1784631046703
+},
+"/documents/20117/2435267/CCI-May_2026-AR-EN.xlsx_fixed_15458286/0adf5e63-50b2-f582-b568-ddbb32d4d469": {
+"at": "2026-09-30",
+"path": "raw/history/gastat_pub/the_construction_cost_index/2026-06-22/CCI-May_2026-AR-EN.xlsx",
+"size": 204502,
+"status": "downloaded",
+"t": 1782102728059
+},
+"/documents/20117/2435267/CCI_Apr_2026-AR-EN_%281%29.xlsx_fixed_14496305/de8ea2b0-b943-f0cc-90dc-673b7da23063": {
+"at": "2026-09-30",
+"path": "raw/history/gastat_pub/the_construction_cost_index/2026-05-19/CCI_Apr_2026-AR-EN_(1).xlsx",
+"size": 202809,
+"status": "downloaded",
+"t": 1779166217998
+},
+"/documents/20117/2435267/CCI_Aug_2025-AR-EN_%281%29.xlsx_fixed_3761807/410f4619-a858-74c1-89c0-ecd72db19b87": {
+"at": "2026-09-30",
+"path": "raw/history/gastat_pub/the_construction_cost_index/2025-09-21/CCI_Aug_2025-AR-EN_(1).xlsx",
+"size": 184656,
+"status": "downloaded",
+"t": 1758439060790
+},
+"/documents/20117/2435267/CCI_Dec_2025-AR-EN_%281%29.xlsx_fixed_10985778/e0c4a686-08e6-8661-d49c-950bdf85c472": {
+"at": "2026-09-30",
+"path": "raw/history/gastat_pub/the_construction_cost_index/2026-01-22/CCI_Dec_2025-AR-EN_(1).xlsx",
+"size": 196086,
+"status": "downloaded",
+"t": 1769057921321
+},
+"/documents/20117/2435267/CCI_Feb_2026-AR-EN_%282%29.xlsx_fixed_12690859/3528374b-709a-c737-ee43-ee34c52848ce": {
+"at": "2026-09-30",
+"path": "raw/history/gastat_pub/the_construction_cost_index/2026-03-20/CCI_Feb_2026-AR-EN_(2).xlsx",
+"size": 201829,
+"status": "downloaded",
+"t": 1774013959384
+},
+"/documents/20117/2435267/CCI_Jan_2026-AR-EN.xlsx_fixed_11852004/15cca4e9-ad1a-eb34-8fe6-8cf863bef828": {
+"at": "2026-09-30",
+"path": "raw/history/gastat_pub/the_construction_cost_index/2026-02-21/CCI_Jan_2026-AR-EN.xlsx",
+"size": 197397,
+"status": "downloaded",
+"t": 1771693915301
+},
+"/documents/20117/2435267/CCI_July_2025-AR-EN_%281%29.xlsx_fixed_3646559/cada73be-e3b4-c49c-572c-919543534ebe": {
+"at": "2026-09-30",
+"path": "raw/history/gastat_pub/the_construction_cost_index/2025-08-19/CCI_July_2025-AR-EN_(1).xlsx",
+"size": 187051,
+"status": "downloaded",
+"t": 1755602642040
+},
+"/documents/20117/2435267/CCI_Jun_2025-AR-EN_%281%29.xlsx_fixed_3457437/c7c6e812-1971-385d-b54d-26aff22431e2": {
+"at": "2026-09-30",
+"path": "raw/history/gastat_pub/the_construction_cost_index/2025-07-22/CCI_Jun_2025-AR-EN_(1).xlsx",
+"size": 186109,
+"status": "downloaded",
+"t": 1753167983894
+},
+"/documents/20117/2435267/CCI_Mar_2026-AR-EN_%283%29.xlsx_fixed_13740119/f87e000b-d917-3fb2-cf5b-7e91863cb805": {
+"at": "2026-09-30",
+"path": "raw/history/gastat_pub/the_construction_cost_index/2026-04-22/CCI_Mar_2026-AR-EN_(3).xlsx",
+"size": 205973,
+"status": "downloaded",
+"t": 1776836889028
+},
+"/documents/20117/2435267/CCI_Nov_2025-AR-EN_%281%29.xlsx_fixed_10073351/6ac8b055-ae2d-da7f-cd9a-c7f7eb077aee": {
+"at": "2026-09-30",
+"path": "raw/history/gastat_pub/the_construction_cost_index/2025-12-22/CCI_Nov_2025-AR-EN_(1).xlsx",
+"size": 195561,
+"status": "downloaded",
+"t": 1766378651920
+},
+"/documents/20117/2435267/CCI_Oct_2025-AR-EN_%282%29.xlsx_fixed_9750754/51fb0115-2cbf-aa8c-fc8b-01bbcbc396f6": {
+"at": "2026-09-30",
+"path": "raw/history/gastat_pub/the_construction_cost_index/2025-11-23/CCI_Oct_2025-AR-EN_(2).xlsx",
+"size": 194759,
+"status": "downloaded",
+"t": 1763878572548
+},
+"/documents/20117/2435267/CCI_Sep_2025-AR-EN_%282%29.xlsx_fixed_9673062/655aa514-cba1-a3c8-88a9-961d1abd630b": {
+"at": "2026-09-30",
+"path": "raw/history/gastat_pub/the_construction_cost_index/2025-11-05/CCI_Sep_2025-AR-EN_(2).xlsx",
+"size": 200390,
+"status": "downloaded",
+"t": 1762318880713
+},
+"/documents/20117/2435267/CPI+Aug+2026-EN.pdf/4af79137-b647-6e2f-859d-50a3eb55b4a3": {
+"at": "2026-09-29",
+"path": "raw/history/gastat_pub/cpi_tables/2026-09-29/CPI Aug 2026-EN.pdf",
+"status": "downloaded",
+"t": 1789447587686
+},
+"/documents/20117/2435267/CPI+Tables-Aug+2026-AR-EN+%281%29.xlsx/07ca5453-f7ad-0171-541c-7d05a76d6f98": {
+"at": "2026-09-29",
+"path": "raw/history/gastat_pub/cpi_tables/2026-09-29/CPI Tables-Aug 2026-AR-EN (1).xlsx",
+"status": "downloaded",
+"t": 1789447465566
+},
+"/documents/20117/2435267/Comprehensive_Economic_Survey2023.xlsx_fixed_2499915/7b4c8df6-2527-29fd-5a76-e0207c964327": {
+"at": "2026-09-29",
+"path": "raw/history/gastat_pub/comprehensive_economic_survey/2026-09-29/Comprehensive_Economic_Survey2023.xlsx",
+"status": "downloaded",
+"t": 1735306724207
+},
+"/documents/20117/2435267/Comprehensive_Economic_Survey_2023_EN.pdf_fixed_7399823/ce200ec0-5f3b-4e0f-7123-6aff60847134": {
+"at": "2026-09-29",
+"path": "raw/history/gastat_pub/comprehensive_economic_survey/2026-09-29/Comprehensive_Economic_Survey_2023_EN.pdf",
+"status": "downloaded",
+"t": 1761641768771
+},
+"/documents/20117/2435267/Foreign+Direct+Investment%2C+Q2+of+2026.xlsx/58cc402a-6465-a388-9995-75a2e9627616": {
+"at": "2026-10-01",
+"path": "raw/history/gastat_pub/foreign_direct_investment/2026-10-01/Foreign Direct Investment, Q2 of 2026.xlsx",
+"size": 125030,
+"status": "downloaded",
+"t": 1790743922089
+},
+"/documents/20117/2435267/GDP_Q2_2026_EN+%282%29.xlsx/c83d0a5f-e2e1-2cac-a477-f1ad8529f202": {
+"at": "2026-09-30",
+"path": "raw/history/gastat_pub/gross_domestic_product/2026-09-30/GDP_Q2_2026_EN (2).xlsx",
+"status": "downloaded",
+"t": 1788844506153
+},
+"/documents/20117/2435267/Housing_Statistics_Bulletin_2025.xlsx_fixed_14560619/8fdd540e-0a99-25a0-2a16-6442916fb5b8": {
+"at": "2026-09-29",
+"path": "raw/history/gastat_pub/housing_statistics/2026-09-29/Housing_Statistics_Bulletin_2025.xlsx",
+"status": "downloaded",
+"t": 1779377856302
+},
+"/documents/20117/2435267/ITR+Jul+2026+%281%29.xlsx/239f6a92-a432-ebf5-da8b-45a43ccd1c1c": {
+"at": "2026-10-01",
+"path": "raw/history/gastat_pub/international_trade_for_goods/2026-10-01/ITR Jul 2026 (1).xlsx",
+"size": 2134163,
+"status": "downloaded",
+"t": 1790669085098
+},
+"/documents/20117/2435267/ITR+non-oil+Aug2026+%281%29.xlsx/d2187deb-5108-75fc-73b6-fdd500f61cbf": {
+"at": "2026-10-01",
+"path": "raw/history/gastat_pub/international_trade_for_goods/2026-10-01/ITR non-oil Aug2026 (1).xlsx",
+"size": 462099,
+"status": "downloaded",
+"t": 1790177719263
+},
+"/documents/20117/2435267/ITS_Q2_2026+%282%29.xlsx/664b88a1-f01e-6b3b-773c-bfa3870a8600": {
+"at": "2026-10-01",
+"path": "raw/history/gastat_pub/international_trade_services/2026-10-01/ITS_Q2_2026 (2).xlsx",
+"size": 317566,
+"status": "downloaded",
+"t": 1790656174702
+},
+"/documents/20117/2435267/REPI_Q2_2026_AR_EN+%281%29.xlsx/9c426236-4dd2-6882-0075-147b8ac9d283": {
+"at": "2026-09-29",
+"path": "raw/history/gastat_pub/real_estate_price_index/2026-09-29/REPI_Q2_2026_AR_EN (1).xlsx",
+"status": "downloaded",
+"t": 1784443512008
+},
+"/documents/20117/2435267/RPI+Q2+2026+EN.pdf/d9cf1257-23ed-d8d3-c21d-9e61f67891e7": {
+"at": "2026-09-29",
+"path": "raw/history/gastat_pub/real_estate_price_index/2026-09-29/RPI Q2 2026 EN.pdf",
+"status": "downloaded",
+"t": 1784443586217
+},
+"/documents/20117/2435267/SME_2024_EN.pdf_fixed_10243466/4cb50fc7-fcb2-729c-92fe-08b5790f75d8": {
+"at": "2026-09-29",
+"path": "raw/history/gastat_pub/sme_statistics/2026-09-29/SME_2024_EN.pdf",
+"status": "downloaded",
+"t": 1766944990175
+},
+"/documents/20117/2435267/STS+July+2026+%281%29.xlsx/c1de24ac-f062-49f4-b011-11762a6c3cd1": {
+"at": "2026-10-01",
+"path": "raw/history/gastat_pub/short_term_business_indicators/2026-10-01/STS July 2026 (1).xlsx",
+"size": 412022,
+"status": "downloaded",
+"t": 1789642794326
+},
+"/documents/20117/2435267/Services_Activities_during_2024_EN_%281%29.pdf_fixed_10298454/0ed6b19d-f48f-390c-08e4-7fcf1692e74a": {
+"at": "2026-09-29",
+"path": "raw/history/gastat_pub/structural_business/2026-09-29/Services_Activities_during_2024_EN_(1).pdf",
+"status": "downloaded",
+"t": 1767072495219
+},
+"/documents/20117/2435267/Small_and_Medium_Enterprises_Statistics_2024_%281%29.xlsx_fixed_10243456/9983f9f4-b362-062f-78e5-35e3924361ef": {
+"at": "2026-09-29",
+"path": "raw/history/gastat_pub/sme_statistics/2026-09-29/Small_and_Medium_Enterprises_Statistics_2024_(1).xlsx",
+"status": "downloaded",
+"t": 1766944881312
+},
+"/documents/20117/2435267/Structural_Business_Statistics_2024_%281%29.xlsx_fixed_7954936/0fdab456-f825-437e-2867-744440610dce": {
+"at": "2026-09-29",
+"path": "raw/history/gastat_pub/structural_business_all/2026-09-29/Structural_Business_Statistics_2024_(1).xlsx",
+"status": "downloaded",
+"t": 1761717893318
+},
+"/documents/20117/2435267/Wholesale+and+Retail+Trade+Statistics-+Q2+-2026+AR-EN+%281%29.xlsx/d8724789-c443-ef79-c980-c99d94f605ce": {
+"at": "2026-09-29",
+"path": "raw/history/gastat_pub/wholesale_retail_trade/2026-09-29/Wholesale and Retail Trade Statistics- Q2 -2026 AR-EN (1).xlsx",
+"status": "downloaded",
+"t": 1787809782391
+},
+"/documents/20117/2435267/services_activities_during_2024_%281%29.xlsx_fixed_10243666/267f84ab-a00f-0abd-2323-95b822675571": {
+"at": "2026-09-29",
+"path": "raw/history/gastat_pub/structural_business/2026-09-29/services_activities_during_2024_(1).xlsx",
+"status": "downloaded",
+"t": 1766946232996
+},
+"/documents/20117/2435267/wholesale_and_ratail_trad_activities_2024_%281%29.xlsx_fixed_10243785/7ac82c63-8b69-0a5a-771c-5e30425fe5fe": {
+"at": "2026-09-29",
+"path": "raw/history/gastat_pub/sbs_wholesale_retail/2026-09-29/wholesale_and_ratail_trad_activities_2024_(1).xlsx",
+"status": "downloaded",
+"t": 1766947033576
+},
+"/documents/20117/2435273/CCI.2026_Q1.xlsx/313df58e-0a35-74bd-9448-f391b3353931": {
+"at": "2026-09-30",
+"path": "raw/history/gastat_pub/consumer_confidence/2026-06-30/CCI.2026_Q1.xlsx",
+"size": 154628,
+"status": "downloaded",
+"t": 1782821165694
+},
+"/documents/20117/2435273/CCI.2026_Q2+%282%29.xlsx/2453399e-77aa-c671-4e00-5328d8c0c1be": {
+"at": "2026-10-01",
+"path": "raw/history/gastat_pub/consumer_confidence/2026-10-01/CCI.2026_Q2 (2).xlsx",
+"size": 130719,
+"status": "downloaded",
+"t": 1790744588849
+},
+"/documents/20117/2435273/CCI_2025_%282%29.xlsx_fixed_13591837/116a0899-e066-93bd-93c7-d142f4bd9b1b": {
+"at": "2026-09-30",
+"path": "raw/history/gastat_pub/consumer_confidence/2026-04-16/CCI_2025_(2).xlsx",
+"size": 155952,
+"status": "downloaded",
+"t": 1776326662848
+},
+"/documents/20117/2435273/Housing_Statistics_Publication_2025-EN.pdf_fixed_14560729/b4860532-e213-cc17-4a20-878c989d1a5d": {
+"at": "2026-09-29",
+"path": "raw/history/gastat_pub/housing_statistics/2026-09-29/Housing_Statistics_Publication_2025-EN.pdf",
+"status": "downloaded",
+"t": 1779377915006
+},
+"/documents/20117/2435273/Labor+Market+Statistics+Q2+2026+EN+%282%29.xlsx/1eb7c5ce-46c1-c8b3-b8e6-9538d3e76422": {
+"at": "2026-10-01",
+"path": "raw/history/gastat_pub/labor_market/2026-10-01/Labor Market Statistics Q2 2026 EN (2).xlsx",
+"size": 452578,
+"status": "downloaded",
+"t": 1790766266916
+},
+"/documents/20117/2435273/Publication_tables_of_Household_Income_and_Consumption_Expenditure_Survey_2023_2_%281%29.xlsx_fixed_2613883/f482083a-b92a-ab65-d41b-7d1bf7c23e6e": {
+"at": "2026-09-29",
+"path": "raw/history/gastat_pub/hies/2026-09-29/Publication_tables_of_Household_Income_and_Consumption_Expenditure_Survey_2023_2_(1).xlsx",
+"status": "downloaded",
+"t": 1740656886918
+},
+"/documents/20117/2435273/Register-based+Labour+Market+Statistics-+Q2+2026+EN.xlsx/fbbb6b2c-5d38-ae17-3cab-a54c3df75356": {
+"at": "2026-10-01",
+"path": "raw/history/gastat_pub/registered_labor_market/2026-10-01/Register-based Labour Market Statistics- Q2 2026 EN.xlsx",
+"size": 281217,
+"status": "downloaded",
+"t": 1790745619070
+},
+"/documents/20117/2435281/Maritime+Transport+Statistics+2025+EN.xlsx/9245c8d3-2f2c-4e29-3fce-80798ddfe32e": {
+"at": "2026-10-01",
+"path": "raw/history/gastat_pub/maritime_transport/2026-10-01/Maritime Transport Statistics 2025 EN.xlsx",
+"size": 294970,
+"status": "downloaded",
+"t": 1789532869270
+},
+"/documents/20117/2435281/Tourism+Establishments+Statistics+Q1+of+2026+EN+%281%29.xlsx/80ca3b82-7a44-e6e3-1e59-f3bbab1736f5": {
+"at": "2026-09-30",
+"path": "raw/history/gastat_pub/tourism_establishments/2026-07-05/Tourism Establishments Statistics Q1 of 2026 EN (1).xlsx",
+"status": "downloaded",
+"t": 1783228372093
+},
+"/documents/20117/2435281/Tourism+Establishments+Statistics+Q2+of+2026+EN+%281%29.xlsx/55242e87-417c-29f8-5f27-53c918fc9d5f": {
+"at": "2026-10-01",
+"path": "raw/history/gastat_pub/tourism_establishments/2026-10-01/Tourism Establishments Statistics Q2 of 2026 EN (1).xlsx",
+"size": 511197,
+"status": "downloaded",
+"t": 1790743495848
+},
+"/documents/20117/2435281/Umrah+Statistics++Q1+2025-EN.xlsx/af4ea28b-6054-26d5-1425-fe3b213b9071": {
+"at": "2026-09-30",
+"path": "raw/history/gastat_pub/umrah/2026-08-10/Umrah Statistics  Q1 2025-EN.xlsx",
+"size": 376590,
+"status": "downloaded",
+"t": 1786339291189
+},
+"/documents/20117/2435281/Umrah+Statistics+Q2-2025-EN+%281%29.xlsx/08ab0dd3-8ba0-8a5e-b14c-206dcdcfc398": {
+"at": "2026-09-30",
+"path": "raw/history/gastat_pub/umrah/2026-08-10/Umrah Statistics Q2-2025-EN (1).xlsx",
+"size": 266918,
+"status": "downloaded",
+"t": 1786339801298
+},
+"/documents/20117/2435281/Umrah+Statistics+for+Q1+2026+EN.xlsx/84982164-0e87-d982-5471-b759a4c18642": {
+"at": "2026-09-30",
+"path": "raw/history/gastat_pub/umrah/2026-08-23/Umrah Statistics for Q1 2026 EN.xlsx",
+"size": 682026,
+"status": "downloaded",
+"t": 1787465240429
+},
+"/documents/20117/2435281/Umrah_Statistics_Q1_of_2024__EN.xlsx_fixed_2683735/7f89624e-01ea-5046-5226-767af690b50d": {
+"at": "2026-09-30",
+"path": "raw/history/gastat_pub/umrah/2025-03-19/Umrah_Statistics_Q1_of_2024__EN.xlsx",
+"size": 109137,
+"status": "downloaded",
+"t": 1742389080818
+},
+"/documents/20117/2435281/Umrah_Statistics_Q2_of_2024_EN.xlsx_fixed_2683778/0644dce5-e6d0-5df6-e4ba-0fb8ab12eed4": {
+"at": "2026-09-30",
+"path": "raw/history/gastat_pub/umrah/2025-03-19/Umrah_Statistics_Q2_of_2024_EN.xlsx",
+"size": 112463,
+"status": "downloaded",
+"t": 1742389208556
+},
+"/documents/20117/2435281/Umrah_Statistics_Q3_of_2024_EN.xlsx_fixed_2683690/45c56d1a-d3b1-9725-ae38-de14e66956d1": {
+"at": "2026-09-30",
+"path": "raw/history/gastat_pub/umrah/2025-03-19/Umrah_Statistics_Q3_of_2024_EN.xlsx",
+"size": 113823,
+"status": "downloaded",
+"t": 1742388923454
+},
+"/documents/20117/2435281/Umrah_Statistics_Q4_of_2024_EN.xlsx_fixed_2683821/249fc19a-2230-71d2-aadd-525d23b86ca7": {
+"at": "2026-09-30",
+"path": "raw/history/gastat_pub/umrah/2025-03-19/Umrah_Statistics_Q4_of_2024_EN.xlsx",
+"size": 126710,
+"status": "downloaded",
+"t": 1742389466238
+},
+"/documents/20117/2435281/Umrah_Statistics_for_Q3_of_2025-EN_%281%29.xlsx_fixed_12207636/1b8628d8-52a1-52f9-7901-e77eacfc48e5": {
+"at": "2026-09-30",
+"path": "raw/history/gastat_pub/umrah/2026-03-05/Umrah_Statistics_for_Q3_of_2025-EN_(1).xlsx",
+"size": 320582,
+"status": "downloaded",
+"t": 1772700485457
+},
+"https://tableau.stats.gov.sa/views/TA12-PopulationbyGenderbyRegionGovernorateCityandNationality_17298111314390/PopulationbyGenderbyRegionGovernorateCityandNationalityCSV.csv": {
+"at": "2026-10-01",
+"size": 2397156,
+"status": "dup",
+"t": 0
+}
+},
+"last_discover": "2026-10-06",
+"normalize_pending": [],
+"runs": [
+{
+"added": 27,
+"date": "2026-09-30",
+"failed": 0,
+"mb": 4.8,
+"mode": "backfill",
+"priority": 0,
+"remaining": 0,
+"skipped_size": 0
+},
+{
+"added": 17,
+"date": "2026-09-30",
+"failed": 0,
+"mb": 5.5,
+"mode": "backfill",
+"priority": 0,
+"remaining": 0,
+"skipped_size": 0
+},
+{
+"added": 10,
+"date": "2026-10-01",
+"failed": 0,
+"full_discover": false,
+"listing_failures": 0,
+"mb": 5.1,
+"mode": "update",
+"skipped_size": 0
+},
+{
+"added": 0,
+"date": "2026-10-04",
+"failed": 0,
+"full_discover": false,
+"listing_failures": 0,
+"mb": 0.0,
+"mode": "update",
+"skipped_size": 0
+},
+{
+"added": 1,
+"date": "2026-10-06",
+"failed": 0,
+"full_discover": true,
+"listing_failures": 0,
+"mb": 0.3,
+"mode": "update",
+"skipped_size": 0
+},
+{
+"added": 0,
+"date": "2026-10-08",
+"failed": 0,
+"full_discover": false,
+"listing_failures": 0,
+"mb": 0.0,
+"mode": "update",
+"skipped_size": 0
+}
+],
+"size_sample": {
+"pdf": {
+"avg_mb": 3.182,
+"max_mb": 14.0,
+"n": 10
+},
+"xls": {
+"avg_mb": 2.272,
+"max_mb": 18.2,
+"n": 10
+},
+"xlsx": {
+"avg_mb": 0.469,
+"max_mb": 1.5,
+"n": 10
+}
+},
+"tableau": {
+"census2022_population_city": {
+"last_fetch": "2026-10-01"
+}
+}
+}

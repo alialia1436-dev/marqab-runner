@@ -1,0 +1,70 @@
+# مستودع البيانات المفتوحة لنبض البيانات: جمع الملفات الخام كما تنشرها الهيئة العامة للإحصاء.
+# نُقل من المستودع الخاص في 9 أكتوبر 2026 بقرار المالك (دقائق Actions مجانية للمستودعات العامة).
+# لا كود موقع ولا أسرار هنا. المستودع الخاص يزامن هذه الملفات كل ليلة ويوحّدها هناك.
+name: collect-gastat-db
+on:
+  schedule:
+    - cron: '37 3 * * *'   # يوميًا 06:37 الرياض: update ثم متابعة backfill
+    - cron: '23 2 * * 5'   # الجمعة 05:23 الرياض: recheck-broken ثم backfill بلا --resume
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'update | backfill | recheck-broken'
+        type: choice
+        options: [update, backfill, recheck-broken]
+        default: backfill
+      limit:
+        description: 'backfill: أقصى عدد فهارس (0 = بلا حد)'
+        default: '0'
+      max-minutes:
+        description: 'ميزانية الوقت بالدقائق (يكمل الباقي في التشغيل التالي)'
+        default: '300'
+      max-mb:
+        description: 'ميزانية حجم الخام الجديد بالميغابايت لكل commit'
+        default: '400'
+permissions:
+  contents: write
+concurrency:
+  group: gastat-open
+  cancel-in-progress: false
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    steps:
+      - uses: actions/checkout@v4
+        with: {ref: main}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - run: pip install requests pandas hijri-converter
+      - name: collect
+        env:
+          EVENT: ${{ github.event_name }}
+          SCHED: ${{ github.event.schedule }}
+          IN_MODE: ${{ github.event.inputs.mode }}
+          IN_LIMIT: ${{ github.event.inputs.limit }}
+          IN_MIN: ${{ github.event.inputs['max-minutes'] }}
+          IN_MB: ${{ github.event.inputs['max-mb'] }}
+        run: |
+          set -o pipefail
+          C="python3 scripts/collect_gastat_db.py"
+          if [ "$EVENT" = "workflow_dispatch" ]; then
+            ARGS="--mode $IN_MODE --max-minutes ${IN_MIN:-300} --max-mb ${IN_MB:-400}"
+            [ "$IN_MODE" = "backfill" ] && ARGS="$ARGS --limit ${IN_LIMIT:-0}"
+            $C $ARGS
+          elif [ "$SCHED" = "23 2 * * 5" ]; then
+            $C --mode recheck-broken --max-minutes 20
+            $C --mode backfill --max-minutes 250 --max-mb 400
+          else
+            $C --mode update --max-minutes 100
+            # ما بقي من ساعات المهمة للتاريخ القديم؛ الفهارس التي فشلت تُعاد يوم الجمعة
+            $C --mode backfill --resume --max-minutes 150 --max-mb 400
+          fi
+      - name: commit
+        if: always()
+        run: |
+          git config user.name "marqab-data"; git config user.email "cc@datapulseactive.com"
+          git add raw/history data
+          if git diff --cached --quiet; then echo "no new data"; exit 0; fi
+          git commit -m "بيانات: قاعدة الهيئة العامة للإحصاء $(date -u +%F) [skip deploy]"
+          git pull --no-edit origin main && git push origin main
