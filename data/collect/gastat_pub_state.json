@@ -344,6 +344,13 @@
 "status": "downloaded",
 "t": 1779377856302
 },
+"/documents/20117/2435267/IPI+Aug+2026+%281%29.xlsx/4218afce-d514-4f57-d7f0-5e7b4cacad8c": {
+"at": "2026-10-12",
+"path": "raw/history/gastat_pub/industrial_production_index/2026-10-12/IPI Aug 2026 (1).xlsx",
+"size": 271036,
+"status": "downloaded",
+"t": 1791697170743
+},
 "/documents/20117/2435267/ITR+Jul+2026+%281%29.xlsx/239f6a92-a432-ebf5-da8b-45a43ccd1c1c": {
 "at": "2026-10-01",
 "path": "raw/history/gastat_pub/international_trade_for_goods/2026-10-01/ITR Jul 2026 (1).xlsx",
@@ -636,6 +643,16 @@
 "full_discover": false,
 "listing_failures": 0,
 "mb": 0.0,
+"mode": "update",
+"skipped_size": 0
+},
+{
+"added": 1,
+"date": "2026-10-12",
+"failed": 0,
+"full_discover": false,
+"listing_failures": 0,
+"mb": 0.3,
 "mode": "update",
 "skipped_size": 0
 }
