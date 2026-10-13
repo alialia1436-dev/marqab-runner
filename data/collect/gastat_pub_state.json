@@ -116,6 +116,13 @@
 "status": "downloaded",
 "t": 1734112027425
 },
+"/documents/20117/2435265/lntyj_lwly_ltdd_2010_nhyy_mntq_wmhfzt.xlsx/0c30ff89-bc20-0d2e-5c4b-ca821bc0f370": {
+"at": "2026-10-13",
+"path": "raw/history/gastat_pub/arch_population_and_housing_census/2026-10-13/lntyj_lwly_ltdd_2010_nhyy_mntq_wmhfzt.xlsx",
+"size": 156111,
+"status": "downloaded",
+"t": 1791869775603
+},
 "/documents/20117/2435267/APGSTables-Aug2026+AR-EN+%281%29.xlsx/25d4270c-624f-822f-36ae-6a632c13bd97": {
 "at": "2026-09-29",
 "path": "raw/history/gastat_pub/average_prices/2026-09-29/APGSTables-Aug2026 AR-EN (1).xlsx",
@@ -563,7 +570,7 @@
 "t": 0
 }
 },
-"last_discover": "2026-10-06",
+"last_discover": "2026-10-13",
 "normalize_pending": [],
 "runs": [
 {
@@ -653,6 +660,16 @@
 "full_discover": false,
 "listing_failures": 0,
 "mb": 0.3,
+"mode": "update",
+"skipped_size": 0
+},
+{
+"added": 1,
+"date": "2026-10-13",
+"failed": 0,
+"full_discover": true,
+"listing_failures": 0,
+"mb": 0.2,
 "mode": "update",
 "skipped_size": 0
 }
