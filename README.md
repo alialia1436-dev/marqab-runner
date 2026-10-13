@@ -11,3 +11,8 @@
 ---
 
 Raw, unmodified copies of files published by the General Authority for Statistics (GASTAT), Saudi Arabia, collected daily. Source: GASTAT (official). Reuse under the [GASTAT Use Policy](https://www.stats.gov.sa/en/use-policy). Not affiliated with or endorsed by GASTAT. Scripts © 2026 DataPulse, all rights reserved.
+
+---
+
+## مراقب الموقع (site-watch)
+`scripts/site_watch.py` + `.github/workflows/site-watch.yml`: فحص خارجي كل ساعة لـdatapulseactive.com (النطاق في DNS العام، الصفحات الأساسية، robots.txt، sitemap، ملف تحقق Search Console، شهادة TLS). عند أي مشكلة يُفتح بلاغ «🔴 استنفار» في هذا المستودع فيصل المالك بريد من GitHub، ويُغلق تلقائيًا عند الرجوع. بلا أسرار وبلا كود موقع (أمر المالك 13 أكتوبر 2026 بعد حادثة النطاق 12 أكتوبر).

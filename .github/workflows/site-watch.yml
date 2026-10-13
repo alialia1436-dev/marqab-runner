@@ -1,0 +1,53 @@
+# مراقب الموقع الحي — كل ساعة، بلا Claude وبلا أسرار (أمر المالك 13 أكتوبر 2026: «ابغى كل شيء اوتوماتك»).
+# بعد حادثة النطاق 12 أكتوبر 2026 (إيقاف ICANN لم يُكتشف إلا بعد يومين).
+# عند أي مشكلة يفتح بلاغًا عنوانه «🔴 استنفار» في هذا المستودع → يصل المالك بريد من GitHub فورًا.
+# يعلّق فقط حين تتغير المشكلة (لا رسائل كل ساعة)، ويُغلق البلاغ تلقائيًا حين يرجع كل شيء سليمًا.
+# لا يقرأ ولا يكتب شيئًا في الموقع؛ فحص خارجي بطلبات عادية فقط.
+name: site-watch
+on:
+  schedule:
+    - cron: '17 * * * *'   # كل ساعة عند الدقيقة 17
+  workflow_dispatch:
+permissions:
+  contents: read
+  issues: write
+concurrency:
+  group: site-watch
+  cancel-in-progress: true
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with: {ref: main, sparse-checkout: scripts/site_watch.py, sparse-checkout-cone-mode: false}
+      - name: check
+        run: python3 scripts/site_watch.py
+      - name: alert
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+        run: |
+          set -e
+          ok=$(python3 -c "import json;print(json.load(open('site_watch.json'))['ok'])")
+          sig=$(python3 -c "import json;print(json.load(open('site_watch.json'))['signature'])")
+          open=$(gh issue list -R "$REPO" --state open --limit 20 --json number,title \
+                 -q '[.[]|select(.title|startswith("🔴 استنفار"))][0].number // empty')
+          if [ "$ok" = "True" ]; then
+            if [ -n "$open" ]; then
+              gh issue comment "$open" -R "$REPO" --body "✅ رجع الموقع سليمًا: كل الفحوص نجحت ($(date -u +%Y-%m-%dT%H:%MZ)). أُغلق البلاغ تلقائيًا."
+              gh issue close "$open" -R "$REPO"
+            fi
+            echo "سليم"; exit 0
+          fi
+          first=$(python3 -c "import json;print(json.load(open('site_watch.json'))['failed'][0]['msg'][:70])")
+          if [ -z "$open" ]; then
+            gh issue create -R "$REPO" --title "🔴 استنفار: $first" --body-file site_watch_body.md
+          else
+            last=$( (gh issue view "$open" -R "$REPO" --json body,comments -q '[.body] + [.comments[].body] | map(select(test("sig:"))) | last') | sed -n 's/.*sig:\([^ ]*\) -->.*/\1/p')
+            if [ "$last" != "$sig" ]; then
+              gh issue comment "$open" -R "$REPO" --body-file site_watch_body.md
+            else
+              echo "المشكلة نفسها ما زالت قائمة؛ لا تعليق جديد"
+            fi
+          fi
