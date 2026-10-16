@@ -21,6 +21,13 @@
 "status": "downloaded",
 "t": 1788772686558
 },
+"/documents/20117/2435259/APGSTables-Sep2026-AR-EN.xlsx/9196b580-40d4-b507-77a9-7bd042a3a2ed": {
+"at": "2026-10-16",
+"path": "raw/history/gastat_pub/average_prices/2026-10-16/APGSTables-Sep2026-AR-EN.xlsx",
+"size": 192722,
+"status": "downloaded",
+"t": 1791968250207
+},
 "/documents/20117/2435259/Business+Confidence+Index+AR_EN.xlsx/f4258e07-7e1a-906d-dfa1-ba222ff25c98": {
 "at": "2026-10-09",
 "path": "raw/history/gastat_pub/business_confidence_index/2026-10-09/Business Confidence Index AR_EN.xlsx",
@@ -156,6 +163,13 @@
 "path": "raw/history/gastat_pub/average_prices/2026-09-29/APGSTables-Aug2026 AR-EN (1).xlsx",
 "status": "downloaded",
 "t": 1789447876013
+},
+"/documents/20117/2435267/Annual+foreign+direct+investment+2025+AR-EN+%281%29.xlsx/48fcac4a-c1b1-dfff-7e7c-56928c9c3b20": {
+"at": "2026-10-16",
+"path": "raw/history/gastat_pub/foreign_direct_investment/2026-10-16/Annual foreign direct investment 2025 AR-EN (1).xlsx",
+"size": 332881,
+"status": "downloaded",
+"t": 1792043135610
 },
 "/documents/20117/2435267/Average+Prices+of+Goods+and+Services+Aug+2026+AR_EN+%281%29.pdf/d9a578f2-24e4-1c5f-a0a6-c1143b9caf31": {
 "at": "2026-09-29",
@@ -348,6 +362,13 @@
 "status": "downloaded",
 "t": 1789447465566
 },
+"/documents/20117/2435267/CPI+Tables-Sep+2026-AR-EN+%281%29.xlsx/33c4aa4c-84da-cd22-da4a-c1b045b28e69": {
+"at": "2026-10-16",
+"path": "raw/history/gastat_pub/cpi_tables/2026-10-16/CPI Tables-Sep 2026-AR-EN (1).xlsx",
+"size": 1522428,
+"status": "downloaded",
+"t": 1792041923991
+},
 "/documents/20117/2435267/Comprehensive_Economic_Survey2023.xlsx_fixed_2499915/7b4c8df6-2527-29fd-5a76-e0207c964327": {
 "at": "2026-09-29",
 "path": "raw/history/gastat_pub/comprehensive_economic_survey/2026-09-29/Comprehensive_Economic_Survey2023.xlsx",
@@ -407,6 +428,13 @@
 "status": "downloaded",
 "t": 1790656174702
 },
+"/documents/20117/2435267/PPI+Aug+2026+AR-EN.xlsx/e182ab2c-ae51-d97f-4cee-dcf2fc22713f": {
+"at": "2026-10-16",
+"path": "raw/history/gastat_pub/producer_price/2026-10-16/PPI Aug 2026 AR-EN.xlsx",
+"size": 243239,
+"status": "downloaded",
+"t": 1791967709168
+},
 "/documents/20117/2435267/REPI_Q2_2026_AR_EN+%281%29.xlsx/9c426236-4dd2-6882-0075-147b8ac9d283": {
 "at": "2026-09-29",
 "path": "raw/history/gastat_pub/real_estate_price_index/2026-09-29/REPI_Q2_2026_AR_EN (1).xlsx",
@@ -449,6 +477,13 @@
 "path": "raw/history/gastat_pub/structural_business_all/2026-09-29/Structural_Business_Statistics_2024_(1).xlsx",
 "status": "downloaded",
 "t": 1761717893318
+},
+"/documents/20117/2435267/WPI_Tables_Sep++2026-AR-EN+%281%29.xlsx/92fbe1da-4a4b-d517-1378-d97ba9a27052": {
+"at": "2026-10-16",
+"path": "raw/history/gastat_pub/wholesale_prices/2026-10-16/WPI_Tables_Sep  2026-AR-EN (1).xlsx",
+"size": 1368896,
+"status": "downloaded",
+"t": 1792041588852
 },
 "/documents/20117/2435267/Wholesale+and+Retail+Trade+Statistics-+Q2+-2026+AR-EN+%281%29.xlsx/d8724789-c443-ef79-c980-c99d94f605ce": {
 "at": "2026-09-29",
@@ -718,6 +753,16 @@
 "full_discover": false,
 "listing_failures": 0,
 "mb": 0.0,
+"mode": "update",
+"skipped_size": 0
+},
+{
+"added": 5,
+"date": "2026-10-16",
+"failed": 0,
+"full_discover": false,
+"listing_failures": 0,
+"mb": 3.7,
 "mode": "update",
 "skipped_size": 0
 }
