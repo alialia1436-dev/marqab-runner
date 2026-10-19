@@ -557,6 +557,13 @@
 "status": "downloaded",
 "t": 1789532869270
 },
+"/documents/20117/2435281/Railway+Transport+Statistics+Publication+Tables+2025-EN+%281%29.xlsx/eb256a29-1ec4-9b4b-3000-fa73831f7c85": {
+"at": "2026-10-19",
+"path": "raw/history/gastat_pub/railway_transport/2026-10-19/Railway Transport Statistics Publication Tables 2025-EN (1).xlsx",
+"size": 373865,
+"status": "downloaded",
+"t": 1792310875840
+},
 "/documents/20117/2435281/Tourism+Establishments+Statistics+Q1+of+2026+EN+%281%29.xlsx/80ca3b82-7a44-e6e3-1e59-f3bbab1736f5": {
 "at": "2026-09-30",
 "path": "raw/history/gastat_pub/tourism_establishments/2026-07-05/Tourism Establishments Statistics Q1 of 2026 EN (1).xlsx",
@@ -783,6 +790,16 @@
 "full_discover": false,
 "listing_failures": 0,
 "mb": 0.0,
+"mode": "update",
+"skipped_size": 0
+},
+{
+"added": 1,
+"date": "2026-10-19",
+"failed": 0,
+"full_discover": false,
+"listing_failures": 0,
+"mb": 0.4,
 "mode": "update",
 "skipped_size": 0
 }
