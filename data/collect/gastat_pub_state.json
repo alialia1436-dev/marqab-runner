@@ -441,6 +441,13 @@
 "status": "downloaded",
 "t": 1784443512008
 },
+"/documents/20117/2435267/REPI_Q3_2026_AR_EN.xlsx/3bcfec4a-9744-d7f5-d05f-c88a53aab313": {
+"at": "2026-10-20",
+"path": "raw/history/gastat_pub/real_estate_price_index/2026-10-20/REPI_Q3_2026_AR_EN.xlsx",
+"size": 97344,
+"status": "downloaded",
+"t": 1792394889417
+},
 "/documents/20117/2435267/RPI+Q2+2026+EN.pdf/d9cf1257-23ed-d8d3-c21d-9e61f67891e7": {
 "at": "2026-09-29",
 "path": "raw/history/gastat_pub/real_estate_price_index/2026-09-29/RPI Q2 2026 EN.pdf",
@@ -452,6 +459,13 @@
 "path": "raw/history/gastat_pub/sme_statistics/2026-09-29/SME_2024_EN.pdf",
 "status": "downloaded",
 "t": 1766944990175
+},
+"/documents/20117/2435267/STS+Aug+2026+%281%29.xlsx/7cef483c-392a-13d5-e481-de2d0616fb59": {
+"at": "2026-10-20",
+"path": "raw/history/gastat_pub/short_term_business_indicators/2026-10-20/STS Aug 2026 (1).xlsx",
+"size": 413063,
+"status": "downloaded",
+"t": 1792421217710
 },
 "/documents/20117/2435267/STS+July+2026+%281%29.xlsx/c1de24ac-f062-49f4-b011-11762a6c3cd1": {
 "at": "2026-10-01",
@@ -640,7 +654,7 @@
 "t": 0
 }
 },
-"last_discover": "2026-10-13",
+"last_discover": "2026-10-20",
 "normalize_pending": [],
 "runs": [
 {
@@ -800,6 +814,16 @@
 "full_discover": false,
 "listing_failures": 0,
 "mb": 0.4,
+"mode": "update",
+"skipped_size": 0
+},
+{
+"added": 2,
+"date": "2026-10-20",
+"failed": 0,
+"full_discover": true,
+"listing_failures": 0,
+"mb": 0.5,
 "mode": "update",
 "skipped_size": 0
 }
