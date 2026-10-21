@@ -564,6 +564,13 @@
 "status": "downloaded",
 "t": 1790745619070
 },
+"/documents/20117/2435281/%E2%80%8F%E2%80%8FServices+Statistics+EN+%281%29.xlsx/a2358399-7ab5-b3b3-6661-a9fab735b488": {
+"at": "2026-10-21",
+"path": "raw/history/gastat_pub/service_publication/2026-10-21/‏‏Services Statistics EN (1).xlsx",
+"size": 29926544,
+"status": "downloaded",
+"t": 1792520536724
+},
 "/documents/20117/2435281/Maritime+Transport+Statistics+2025+EN.xlsx/9245c8d3-2f2c-4e29-3fce-80798ddfe32e": {
 "at": "2026-10-01",
 "path": "raw/history/gastat_pub/maritime_transport/2026-10-01/Maritime Transport Statistics 2025 EN.xlsx",
@@ -824,6 +831,16 @@
 "full_discover": true,
 "listing_failures": 0,
 "mb": 0.5,
+"mode": "update",
+"skipped_size": 0
+},
+{
+"added": 1,
+"date": "2026-10-21",
+"failed": 0,
+"full_discover": false,
+"listing_failures": 0,
+"mb": 29.9,
 "mode": "update",
 "skipped_size": 0
 }
