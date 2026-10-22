@@ -273,6 +273,13 @@
 "status": "downloaded",
 "t": 1782102728059
 },
+"/documents/20117/2435267/CCI-Sep+2026-AR-EN+%281%29.xlsx/9a1e3705-cafc-1c70-7e0d-af7b4f92bd15": {
+"at": "2026-10-22",
+"path": "raw/history/gastat_pub/the_construction_cost_index/2026-10-22/CCI-Sep 2026-AR-EN (1).xlsx",
+"size": 213952,
+"status": "downloaded",
+"t": 1792601418722
+},
 "/documents/20117/2435267/CCI_Apr_2026-AR-EN_%281%29.xlsx_fixed_14496305/de8ea2b0-b943-f0cc-90dc-673b7da23063": {
 "at": "2026-09-30",
 "path": "raw/history/gastat_pub/the_construction_cost_index/2026-05-19/CCI_Apr_2026-AR-EN_(1).xlsx",
@@ -551,6 +558,13 @@
 "status": "downloaded",
 "t": 1790766266916
 },
+"/documents/20117/2435273/PA+2026+EN+%281%29.xlsx/a4e12a32-096b-eab1-2d13-426970fbd035": {
+"at": "2026-10-22",
+"path": "raw/history/gastat_pub/physical_activity/2026-10-22/PA 2026 EN (1).xlsx",
+"size": 65275,
+"status": "downloaded",
+"t": 1792602875404
+},
 "/documents/20117/2435273/Publication_tables_of_Household_Income_and_Consumption_Expenditure_Survey_2023_2_%281%29.xlsx_fixed_2613883/f482083a-b92a-ab65-d41b-7d1bf7c23e6e": {
 "at": "2026-09-29",
 "path": "raw/history/gastat_pub/hies/2026-09-29/Publication_tables_of_Household_Income_and_Consumption_Expenditure_Survey_2023_2_(1).xlsx",
@@ -597,6 +611,13 @@
 "size": 511197,
 "status": "downloaded",
 "t": 1790743495848
+},
+"/documents/20117/2435281/Umrah+Statistics++Q1+2025-EN+%281%29.xlsx/f9677e06-6131-c6cd-cf6b-4e6e0461cb4b": {
+"at": "2026-10-22",
+"path": "raw/history/gastat_pub/umrah/2026-10-22/Umrah Statistics  Q1 2025-EN (1).xlsx",
+"size": 345861,
+"status": "downloaded",
+"t": 1792657626752
 },
 "/documents/20117/2435281/Umrah+Statistics++Q1+2025-EN.xlsx/af4ea28b-6054-26d5-1425-fe3b213b9071": {
 "at": "2026-09-30",
@@ -841,6 +862,16 @@
 "full_discover": false,
 "listing_failures": 0,
 "mb": 29.9,
+"mode": "update",
+"skipped_size": 0
+},
+{
+"added": 3,
+"date": "2026-10-22",
+"failed": 0,
+"full_discover": false,
+"listing_failures": 0,
+"mb": 0.6,
 "mode": "update",
 "skipped_size": 0
 }
