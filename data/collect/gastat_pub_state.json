@@ -559,6 +559,13 @@
 "status": "downloaded",
 "t": 1776326662848
 },
+"/documents/20117/2435273/ECD+EN+%281%29.xlsx/b2963484-9785-d580-9f8c-a4c4dea415c6": {
+"at": "2026-10-27",
+"path": "raw/history/gastat_pub/early_childhood_development_and_child_well_being/2026-10-27/ECD EN (1).xlsx",
+"size": 100787,
+"status": "downloaded",
+"t": 1793020097080
+},
 "/documents/20117/2435273/Housing_Statistics_Publication_2025-EN.pdf_fixed_14560729/b4860532-e213-cc17-4a20-878c989d1a5d": {
 "at": "2026-09-29",
 "path": "raw/history/gastat_pub/housing_statistics/2026-09-29/Housing_Statistics_Publication_2025-EN.pdf",
@@ -696,7 +703,7 @@
 "t": 0
 }
 },
-"last_discover": "2026-10-20",
+"last_discover": "2026-10-27",
 "normalize_pending": [],
 "runs": [
 {
@@ -926,6 +933,16 @@
 "full_discover": false,
 "listing_failures": 0,
 "mb": 2.6,
+"mode": "update",
+"skipped_size": 0
+},
+{
+"added": 1,
+"date": "2026-10-27",
+"failed": 0,
+"full_discover": true,
+"listing_failures": 0,
+"mb": 0.1,
 "mode": "update",
 "skipped_size": 0
 }
