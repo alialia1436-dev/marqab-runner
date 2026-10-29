@@ -158,6 +158,13 @@
 "status": "downloaded",
 "t": 1791870274846
 },
+"/documents/20117/2435267/%E2%80%8F%E2%80%8FStructural+Business+Statistics+2025.xlsx/6c6609ae-b647-f9e5-1020-2ac83f62eb12": {
+"at": "2026-10-29",
+"path": "raw/history/gastat_pub/structural_business/2026-10-29/‏‏Structural Business Statistics 2025.xlsx",
+"size": 779217,
+"status": "downloaded",
+"t": 1793201777881
+},
 "/documents/20117/2435267/APGSTables-Aug2026+AR-EN+%281%29.xlsx/25d4270c-624f-822f-36ae-6a632c13bd97": {
 "at": "2026-09-29",
 "path": "raw/history/gastat_pub/average_prices/2026-09-29/APGSTables-Aug2026 AR-EN (1).xlsx",
@@ -449,6 +456,32 @@
 "status": "downloaded",
 "t": 1790656174702
 },
+"/documents/20117/2435267/International+Trade+in+Services+%282%29.xlsx/9954a7c0-d282-c4f0-6eda-acc679de29ad": {
+"at": "2026-10-29",
+"size": 340631,
+"status": "dup",
+"t": 1793251985719
+},
+"/documents/20117/2435267/International+Trade+in+Services+%285%29.xlsx/731261fc-53f5-d756-eb3f-81a56e10b58d": {
+"at": "2026-10-29",
+"path": "raw/history/gastat_pub/international_trade_services/2026-10-29/International Trade in Services (5).xlsx",
+"size": 340631,
+"status": "downloaded",
+"t": 1793252216333
+},
+"/documents/20117/2435267/International+Trade+in+Services+2025.xlsx/11b2072c-f026-64ce-763f-1aaf5bd7d9f8": {
+"at": "2026-10-29",
+"path": "raw/history/gastat_pub/international_trade_services/2026-10-29/International Trade in Services 2025.xlsx",
+"size": 279748,
+"status": "downloaded",
+"t": 1793179168194
+},
+"/documents/20117/2435267/International+Trade+in+Services.xlsx/ac342bb9-6767-d822-2d6c-6bd41550a110": {
+"at": "2026-10-29",
+"size": 340631,
+"status": "dup",
+"t": 1793251903778
+},
 "/documents/20117/2435267/PPI+Aug+2026+AR-EN.xlsx/e182ab2c-ae51-d97f-4cee-dcf2fc22713f": {
 "at": "2026-10-16",
 "path": "raw/history/gastat_pub/producer_price/2026-10-16/PPI Aug 2026 AR-EN.xlsx",
@@ -612,6 +645,13 @@
 "size": 294970,
 "status": "downloaded",
 "t": 1789532869270
+},
+"/documents/20117/2435281/Mineral+Resources+Statistics+2025+EN.xlsx/26a37aac-3178-bcac-1358-89846226aa4d": {
+"at": "2026-10-29",
+"path": "raw/history/gastat_pub/mineral_resources/2026-10-29/Mineral Resources Statistics 2025 EN.xlsx",
+"size": 505614,
+"status": "downloaded",
+"t": 1793079609673
 },
 "/documents/20117/2435281/Railway+Transport+Statistics+Publication+Tables+2025-EN+%281%29.xlsx/eb256a29-1ec4-9b4b-3000-fa73831f7c85": {
 "at": "2026-10-19",
@@ -953,6 +993,16 @@
 "full_discover": false,
 "listing_failures": 0,
 "mb": 0.0,
+"mode": "update",
+"skipped_size": 0
+},
+{
+"added": 4,
+"date": "2026-10-29",
+"failed": 0,
+"full_discover": false,
+"listing_failures": 0,
+"mb": 1.9,
 "mode": "update",
 "skipped_size": 0
 }
