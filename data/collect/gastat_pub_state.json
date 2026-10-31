@@ -737,7 +737,7 @@
 "t": 1772700485457
 },
 "https://tableau.stats.gov.sa/views/TA12-PopulationbyGenderbyRegionGovernorateCityandNationality_17298111314390/PopulationbyGenderbyRegionGovernorateCityandNationalityCSV.csv": {
-"at": "2026-10-01",
+"at": "2026-10-31",
 "size": 2397156,
 "status": "dup",
 "t": 0
@@ -1015,6 +1015,16 @@
 "mb": 0.0,
 "mode": "update",
 "skipped_size": 0
+},
+{
+"added": 0,
+"date": "2026-10-31",
+"failed": 0,
+"full_discover": false,
+"listing_failures": 0,
+"mb": 0.0,
+"mode": "update",
+"skipped_size": 0
 }
 ],
 "size_sample": {
@@ -1036,7 +1046,7 @@
 },
 "tableau": {
 "census2022_population_city": {
-"last_fetch": "2026-10-01"
+"last_fetch": "2026-10-31"
 }
 }
 }
