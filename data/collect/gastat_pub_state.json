@@ -402,6 +402,13 @@
 "status": "downloaded",
 "t": 1790743922089
 },
+"/documents/20117/2435267/GDP+Flash+Estimates++Q3-2026-EN.xlsx/e21a1ab7-1840-b17f-0ae7-35633cd83278": {
+"at": "2026-11-01",
+"path": "raw/history/gastat_pub/gross_domestic_product/2026-11-01/GDP Flash Estimates  Q3-2026-EN.xlsx",
+"size": 166369,
+"status": "downloaded",
+"t": 1793460726691
+},
 "/documents/20117/2435267/GDP_Q2_2026_EN+%282%29.xlsx/c83d0a5f-e2e1-2cac-a477-f1ad8529f202": {
 "at": "2026-09-30",
 "path": "raw/history/gastat_pub/gross_domestic_product/2026-09-30/GDP_Q2_2026_EN (2).xlsx",
@@ -413,6 +420,13 @@
 "path": "raw/history/gastat_pub/housing_statistics/2026-09-29/Housing_Statistics_Bulletin_2025.xlsx",
 "status": "downloaded",
 "t": 1779377856302
+},
+"/documents/20117/2435267/ICT_Access_and_Usage_Statistics_2026+%281%29.xlsx/01873e63-044d-74ac-4d58-2d0f3f933953": {
+"at": "2026-11-01",
+"path": "raw/history/gastat_pub/access_and_use_of_information_and_communications/2026-11-01/ICT_Access_and_Usage_Statistics_2026 (1).xlsx",
+"size": 469651,
+"status": "downloaded",
+"t": 1793467263793
 },
 "/documents/20117/2435267/IPI+Aug+2026+%281%29.xlsx/4218afce-d514-4f57-d7f0-5e7b4cacad8c": {
 "at": "2026-10-12",
@@ -1023,6 +1037,16 @@
 "full_discover": false,
 "listing_failures": 0,
 "mb": 0.0,
+"mode": "update",
+"skipped_size": 0
+},
+{
+"added": 2,
+"date": "2026-11-01",
+"failed": 0,
+"full_discover": false,
+"listing_failures": 0,
+"mb": 0.6,
 "mode": "update",
 "skipped_size": 0
 }
