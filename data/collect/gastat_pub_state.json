@@ -761,16 +761,6 @@
 "normalize_pending": [],
 "runs": [
 {
-"added": 17,
-"date": "2026-09-30",
-"failed": 0,
-"mb": 5.5,
-"mode": "backfill",
-"priority": 0,
-"remaining": 0,
-"skipped_size": 0
-},
-{
 "added": 10,
 "date": "2026-10-01",
 "failed": 0,
@@ -1055,6 +1045,16 @@
 "date": "2026-11-03",
 "failed": 0,
 "full_discover": true,
+"listing_failures": 0,
+"mb": 0.0,
+"mode": "update",
+"skipped_size": 0
+},
+{
+"added": 0,
+"date": "2026-11-04",
+"failed": 0,
+"full_discover": false,
 "listing_failures": 0,
 "mb": 0.0,
 "mode": "update",
