@@ -646,6 +646,13 @@
 "status": "downloaded",
 "t": 1790745619070
 },
+"/documents/20117/2435281/%E2%80%8F%E2%80%8F%E2%80%8F%E2%80%8FRoad+Transport+Statistics+2025+-+EN+%281%29.xlsx/ac687a27-82d7-793a-d497-c2fcbb0cbb73": {
+"at": "2026-11-05",
+"path": "raw/history/gastat_pub/road_transport/2026-11-05/‏‏‏‏Road Transport Statistics 2025 - EN (1).xlsx",
+"size": 754023,
+"status": "downloaded",
+"t": 1793612751029
+},
 "/documents/20117/2435281/%E2%80%8F%E2%80%8FServices+Statistics+EN+%281%29.xlsx/a2358399-7ab5-b3b3-6661-a9fab735b488": {
 "at": "2026-10-21",
 "path": "raw/history/gastat_pub/service_publication/2026-10-21/‏‏Services Statistics EN (1).xlsx",
@@ -760,16 +767,6 @@
 "last_discover": "2026-11-03",
 "normalize_pending": [],
 "runs": [
-{
-"added": 10,
-"date": "2026-10-01",
-"failed": 0,
-"full_discover": false,
-"listing_failures": 0,
-"mb": 5.1,
-"mode": "update",
-"skipped_size": 0
-},
 {
 "added": 0,
 "date": "2026-10-04",
@@ -1057,6 +1054,16 @@
 "full_discover": false,
 "listing_failures": 0,
 "mb": 0.0,
+"mode": "update",
+"skipped_size": 0
+},
+{
+"added": 1,
+"date": "2026-11-05",
+"failed": 0,
+"full_discover": false,
+"listing_failures": 0,
+"mb": 0.8,
 "mode": "update",
 "skipped_size": 0
 }
