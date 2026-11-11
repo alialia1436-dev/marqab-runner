@@ -818,16 +818,6 @@
 "runs": [
 {
 "added": 1,
-"date": "2026-10-12",
-"failed": 0,
-"full_discover": false,
-"listing_failures": 0,
-"mb": 0.3,
-"mode": "update",
-"skipped_size": 0
-},
-{
-"added": 1,
 "date": "2026-10-13",
 "failed": 0,
 "full_discover": true,
@@ -1113,6 +1103,16 @@
 "full_discover": true,
 "listing_failures": 0,
 "mb": 0.3,
+"mode": "update",
+"skipped_size": 0
+},
+{
+"added": 0,
+"date": "2026-11-11",
+"failed": 0,
+"full_discover": false,
+"listing_failures": 0,
+"mb": 0.0,
 "mode": "update",
 "skipped_size": 0
 }
