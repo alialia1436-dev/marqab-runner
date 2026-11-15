@@ -171,6 +171,13 @@
 "status": "downloaded",
 "t": 1789447876013
 },
+"/documents/20117/2435267/APGSTables-Oct2026-AR-EN+%282%29.xlsx/5f7ecf43-d795-696e-c356-f83494cff0ee": {
+"at": "2026-11-15",
+"path": "raw/history/gastat_pub/average_prices/2026-11-15/APGSTables-Oct2026-AR-EN (2).xlsx",
+"size": 191827,
+"status": "downloaded",
+"t": 1794210457707
+},
 "/documents/20117/2435267/Annual+foreign+direct+investment+2025+AR-EN+%281%29.xlsx/48fcac4a-c1b1-dfff-7e7c-56928c9c3b20": {
 "at": "2026-10-16",
 "path": "raw/history/gastat_pub/foreign_direct_investment/2026-10-16/Annual foreign direct investment 2025 AR-EN (1).xlsx",
@@ -382,6 +389,13 @@
 "path": "raw/history/gastat_pub/cpi_tables/2026-09-29/CPI Tables-Aug 2026-AR-EN (1).xlsx",
 "status": "downloaded",
 "t": 1789447465566
+},
+"/documents/20117/2435267/CPI+Tables-Oct+2026-AR-EN+%281%29.xlsx/98fd3575-4508-bd3d-1a49-f6d0c369d98d": {
+"at": "2026-11-15",
+"path": "raw/history/gastat_pub/cpi_tables/2026-11-15/CPI Tables-Oct 2026-AR-EN (1).xlsx",
+"size": 1526961,
+"status": "downloaded",
+"t": 1794389296204
 },
 "/documents/20117/2435267/CPI+Tables-Sep+2026-AR-EN+%281%29.xlsx/33c4aa4c-84da-cd22-da4a-c1b045b28e69": {
 "at": "2026-10-16",
@@ -609,6 +623,13 @@
 "status": "downloaded",
 "t": 1761717893318
 },
+"/documents/20117/2435267/WPI_Tables_Oct+2026-AR-EN+%281%29.xlsx/569db256-9ade-dec2-d036-2ab372cf835c": {
+"at": "2026-11-15",
+"path": "raw/history/gastat_pub/wholesale_prices/2026-11-15/WPI_Tables_Oct 2026-AR-EN (1).xlsx",
+"size": 1379976,
+"status": "downloaded",
+"t": 1794388935964
+},
 "/documents/20117/2435267/WPI_Tables_Sep++2026-AR-EN+%281%29.xlsx/92fbe1da-4a4b-d517-1378-d97ba9a27052": {
 "at": "2026-10-16",
 "path": "raw/history/gastat_pub/wholesale_prices/2026-10-16/WPI_Tables_Sep  2026-AR-EN (1).xlsx",
@@ -708,6 +729,13 @@
 "size": 29926544,
 "status": "downloaded",
 "t": 1792520536724
+},
+"/documents/20117/2435281/Livestock+Statistics+2025-EN+%281%29.xlsx/9ab0a1f1-cf1b-38c8-4a07-ec37b5cc2862": {
+"at": "2026-11-15",
+"path": "raw/history/gastat_pub/livestock/2026-11-15/Livestock Statistics 2025-EN (1).xlsx",
+"size": 462300,
+"status": "downloaded",
+"t": 1794467061788
 },
 "/documents/20117/2435281/Maritime+Transport+Statistics+2025+EN.xlsx/9245c8d3-2f2c-4e29-3fce-80798ddfe32e": {
 "at": "2026-10-01",
@@ -816,16 +844,6 @@
 "last_discover": "2026-11-10",
 "normalize_pending": [],
 "runs": [
-{
-"added": 5,
-"date": "2026-10-16",
-"failed": 0,
-"full_discover": false,
-"listing_failures": 0,
-"mb": 3.7,
-"mode": "update",
-"skipped_size": 0
-},
 {
 "added": 0,
 "date": "2026-10-17",
@@ -1113,6 +1131,16 @@
 "full_discover": false,
 "listing_failures": 0,
 "mb": 0.0,
+"mode": "update",
+"skipped_size": 0
+},
+{
+"added": 4,
+"date": "2026-11-15",
+"failed": 0,
+"full_discover": false,
+"listing_failures": 0,
+"mb": 3.6,
 "mode": "update",
 "skipped_size": 0
 }
