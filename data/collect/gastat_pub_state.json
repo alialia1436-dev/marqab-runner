@@ -566,6 +566,13 @@
 "status": "downloaded",
 "t": 1791967709168
 },
+"/documents/20117/2435267/PPI+Sep+2026+AR-EN+%281%29.xlsx/c31a8648-dfa7-306d-3017-5bec13e4d582": {
+"at": "2026-11-16",
+"path": "raw/history/gastat_pub/producer_price/2026-11-16/PPI Sep 2026 AR-EN (1).xlsx",
+"size": 430047,
+"status": "downloaded",
+"t": 1794731727054
+},
 "/documents/20117/2435267/REPI_Q2_2026_AR_EN+%281%29.xlsx/9c426236-4dd2-6882-0075-147b8ac9d283": {
 "at": "2026-09-29",
 "path": "raw/history/gastat_pub/real_estate_price_index/2026-09-29/REPI_Q2_2026_AR_EN (1).xlsx",
@@ -584,6 +591,13 @@
 "path": "raw/history/gastat_pub/real_estate_price_index/2026-09-29/RPI Q2 2026 EN.pdf",
 "status": "downloaded",
 "t": 1784443586217
+},
+"/documents/20117/2435267/Research+and+Development+Statistics+survey+2025+%281%29.xlsx/9393b9f9-8774-8005-3053-a4c52aef30d9": {
+"at": "2026-11-16",
+"path": "raw/history/gastat_pub/research_and_development/2026-11-16/Research and Development Statistics survey 2025 (1).xlsx",
+"size": 177352,
+"status": "downloaded",
+"t": 1794732059452
 },
 "/documents/20117/2435267/SME_2024_EN.pdf_fixed_10243466/4cb50fc7-fcb2-729c-92fe-08b5790f75d8": {
 "at": "2026-09-29",
@@ -730,6 +744,13 @@
 "status": "downloaded",
 "t": 1792520536724
 },
+"/documents/20117/2435281/Livestock+Statistics+2025+EN.xlsx/b7d5e41f-546c-0004-2f27-849c50ed6324": {
+"at": "2026-11-16",
+"path": "raw/history/gastat_pub/livestock/2026-11-16/Livestock Statistics 2025 EN.xlsx",
+"size": 511497,
+"status": "downloaded",
+"t": 1794826716525
+},
 "/documents/20117/2435281/Livestock+Statistics+2025-EN+%281%29.xlsx/9ab0a1f1-cf1b-38c8-4a07-ec37b5cc2862": {
 "at": "2026-11-15",
 "path": "raw/history/gastat_pub/livestock/2026-11-15/Livestock Statistics 2025-EN (1).xlsx",
@@ -844,16 +865,6 @@
 "last_discover": "2026-11-10",
 "normalize_pending": [],
 "runs": [
-{
-"added": 0,
-"date": "2026-10-17",
-"failed": 0,
-"full_discover": false,
-"listing_failures": 0,
-"mb": 0.0,
-"mode": "update",
-"skipped_size": 0
-},
 {
 "added": 0,
 "date": "2026-10-18",
@@ -1141,6 +1152,16 @@
 "full_discover": false,
 "listing_failures": 0,
 "mb": 3.6,
+"mode": "update",
+"skipped_size": 0
+},
+{
+"added": 3,
+"date": "2026-11-16",
+"failed": 0,
+"full_discover": false,
+"listing_failures": 0,
+"mb": 1.1,
 "mode": "update",
 "skipped_size": 0
 }
