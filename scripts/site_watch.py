@@ -27,6 +27,20 @@ UA = 'DataPulse-SiteWatch/1.0 (+https://datapulseactive.com/)'
 results = []   # (ok, key, message_ar)
 
 
+CHALLENGED = []   # صفحات ردّ عليها الخادم بصفحة حماية من البوتات بدل محتوانا
+
+
+def challenge(path, status, body):
+    """حادثة 18 نوفمبر 2026: حماية البوتات في استضافة سهارا تردّ على عناوين GitHub Actions
+    بصفحة تحدٍّ JavaScript (200، <script nonce>) بينما الزوار والجلب الخارجي يرون الموقع سليمًا.
+    هذا حجب للمراقب وليس عطلًا في الموقع، فلا يفتح استنفارًا؛ يُسجّل فقط."""
+    if status == 200 and path in ODD and '<script nonce' in (body or '')[:600]:
+        CHALLENGED.append(path)
+        print(f'⚪ {path}: صفحة حماية من البوتات (حجب للمراقب لا للموقع) — تخطّي فحص المحتوى', flush=True)
+        return True
+    return False
+
+
 def add(ok, key, msg):
     results.append((ok, key, msg))
     print(('✅ ' if ok else '🔴 ') + msg, flush=True)
@@ -92,7 +106,9 @@ elif nss:
 
 # 2) الصفحات
 st, body = fetch('/', want='نبض البيانات')
-if st == 200 and 'نبض البيانات' in body:
+if challenge('/', st, body):
+    pass
+elif st == 200 and 'نبض البيانات' in body:
     add(True, 'home', 'الرئيسية 200 وفيها محتوانا')
 elif st == 200 and 'ICANN' in body:
     add(False, 'home', 'الرئيسية تعرض صفحة إيقاف ICANN — بريد مسجّل النطاق يحتاج تحقق')
@@ -106,7 +122,9 @@ for p, name in (('/privacy/', 'سياسة الخصوصية'), ('/terms/', 'شر�
 # 3) robots وsitemap
 s, rb = fetch('/robots.txt', want='Sitemap:')
 lines = [l.strip().lower() for l in (rb or '').splitlines()]
-if s != 200:
+if challenge('/robots.txt', s, rb):
+    pass
+elif s != 200:
     add(False, 'robots', f'robots.txt لا يُجلب (الحالة: {s}) — قوقل يوقف الزحف على الموقع كله حين يفشل جلبه')
 elif 'disallow: /' in lines:
     add(False, 'robots', 'robots.txt يمنع الزحف على الموقع كله (Disallow: /)')
@@ -117,11 +135,13 @@ else:
 
 s, sm = fetch('/sitemap.xml', want='<loc>')
 n = (sm or '').count('<loc>')
-add(s == 200 and n >= MIN_SITEMAP, 'sitemap',
+if not challenge('/sitemap.xml', s, sm):
+  add(s == 200 and n >= MIN_SITEMAP, 'sitemap',
     f'sitemap.xml فيه {n} رابطًا' if s == 200 and n >= MIN_SITEMAP else f'sitemap.xml ناقص أو لا يعمل (الحالة: {s}، الروابط: {n}، المطلوب ≥ {MIN_SITEMAP})')
 
 s, g = fetch('/' + GSC_FILE, want=GSC_BODY)
-add(s == 200 and (g or '').strip() == GSC_BODY, 'gsc',
+if not challenge('/' + GSC_FILE, s, g):
+  add(s == 200 and (g or '').strip() == GSC_BODY, 'gsc',
     'ملف تحقق Search Console سليم' if s == 200 and (g or '').strip() == GSC_BODY else f'ملف تحقق Search Console مفقود أو متغير (الحالة: {s}) — نخسر ملكية الموقع في قوقل')
 
 # 4) الشهادة
