@@ -48,14 +48,22 @@ def doh(name, rtype):
     return out
 
 
-def fetch(path, tries=3):
-    """GET مع إعادة المحاولة؛ يعيد (status, body) أو (None, سبب الخطأ)."""
+ODD = {}   # path -> أول 150 حرفًا من صفحة 200 غريبة (حادثة 18 نوفمبر 2026: الخادم ردّ 200 بمحتوى غير محتوانا دقائق، فانفتح بلاغ كاذب)
+
+
+def fetch(path, tries=3, want=None):
+    """GET مع إعادة المحاولة؛ يعيد (status, body) أو (None, سبب الخطأ).
+    want: نص لازم يكون في الصفحة؛ إن ردّ الخادم 200 بدونه نعيد المحاولة (صفحة حماية/خلل مؤقت)."""
     last = None
     for i in range(tries):
         try:
             req = urllib.request.Request(f'https://{DOMAIN}{path}', headers={'user-agent': UA, 'cache-control': 'no-cache'})
             with urllib.request.urlopen(req, timeout=30) as r:
-                return r.status, r.read().decode('utf-8', 'replace')
+                last = (r.status, r.read().decode('utf-8', 'replace'))
+            if not want or want in last[1]:
+                return last
+            ODD[path] = ' '.join(last[1].split())[:150]
+            print(f'   ({path}: 200 بمحتوى غريب، محاولة {i + 1}: {ODD[path]})')
         except urllib.error.HTTPError as e:
             last = (e.code, '')
         except Exception as e:  # noqa: BLE001
@@ -83,7 +91,7 @@ elif nss:
     add(True, 'dns-ns', f'خوادم الأسماء: {", ".join(sorted(nss))}')
 
 # 2) الصفحات
-st, body = fetch('/')
+st, body = fetch('/', want='نبض البيانات')
 if st == 200 and 'نبض البيانات' in body:
     add(True, 'home', 'الرئيسية 200 وفيها محتوانا')
 elif st == 200 and 'ICANN' in body:
@@ -96,7 +104,7 @@ for p, name in (('/privacy/', 'سياسة الخصوصية'), ('/terms/', 'شر�
     add(s == 200, 'page' + p, f'{name} {s}' if s == 200 else f'{name} لا تعمل (الحالة: {s})')
 
 # 3) robots وsitemap
-s, rb = fetch('/robots.txt')
+s, rb = fetch('/robots.txt', want='Sitemap:')
 lines = [l.strip().lower() for l in (rb or '').splitlines()]
 if s != 200:
     add(False, 'robots', f'robots.txt لا يُجلب (الحالة: {s}) — قوقل يوقف الزحف على الموقع كله حين يفشل جلبه')
@@ -107,12 +115,12 @@ elif not any(l.startswith('sitemap:') for l in lines):
 else:
     add(True, 'robots', 'robots.txt سليم')
 
-s, sm = fetch('/sitemap.xml')
+s, sm = fetch('/sitemap.xml', want='<loc>')
 n = (sm or '').count('<loc>')
 add(s == 200 and n >= MIN_SITEMAP, 'sitemap',
     f'sitemap.xml فيه {n} رابطًا' if s == 200 and n >= MIN_SITEMAP else f'sitemap.xml ناقص أو لا يعمل (الحالة: {s}، الروابط: {n}، المطلوب ≥ {MIN_SITEMAP})')
 
-s, g = fetch('/' + GSC_FILE)
+s, g = fetch('/' + GSC_FILE, want=GSC_BODY)
 add(s == 200 and (g or '').strip() == GSC_BODY, 'gsc',
     'ملف تحقق Search Console سليم' if s == 200 and (g or '').strip() == GSC_BODY else f'ملف تحقق Search Console مفقود أو متغير (الحالة: {s}) — نخسر ملكية الموقع في قوقل')
 
@@ -147,7 +155,10 @@ OWNER_DO = {
 }
 domain_keys = {'dns-a', 'dns-ns'} | ({'home'} if any(k == 'home' and 'ICANN' in m for _, k, m in bad) else set())
 keys = {k for _, k, _ in bad}
-lines = ['## وش صار', ''] + [f'- 🔴 {m}' for _, _, m in bad] + ['', '## وش المطلوب', '']
+lines = ['## وش صار', ''] + [f'- 🔴 {m}' for _, _, m in bad]
+if ODD and bad:
+    lines += ['', 'الخادم ردّ 200 بمحتوى غير محتوانا (بعد 3 محاولات):'] + [f'- `{k}`: {v}' for k, v in ODD.items()]
+lines += ['', '## وش المطلوب', '']
 if keys & domain_keys:
     lines.append(OWNER_DO['domain'])
 elif 'tls' in keys and len(keys) == 1:
