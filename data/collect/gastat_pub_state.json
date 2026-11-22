@@ -619,6 +619,13 @@
 "status": "downloaded",
 "t": 1789642794326
 },
+"/documents/20117/2435267/STS+Sep+2026+%281%29.xlsx/f701c4e3-1aee-5840-e2c1-bca72f611d75": {
+"at": "2026-11-22",
+"path": "raw/history/gastat_pub/short_term_business_indicators/2026-11-22/STS Sep 2026 (1).xlsx",
+"size": 414186,
+"status": "downloaded",
+"t": 1795296165555
+},
 "/documents/20117/2435267/Services_Activities_during_2024_EN_%281%29.pdf_fixed_10298454/0ed6b19d-f48f-390c-08e4-7fcf1692e74a": {
 "at": "2026-09-29",
 "path": "raw/history/gastat_pub/structural_business/2026-09-29/Services_Activities_during_2024_EN_(1).pdf",
@@ -744,6 +751,13 @@
 "status": "downloaded",
 "t": 1792520536724
 },
+"/documents/20117/2435281/Agricultural+Statistics+2025+-+EN+%281%29.xlsx/52ad8a5c-b683-663b-dfa3-7a9c9652960c": {
+"at": "2026-11-22",
+"path": "raw/history/gastat_pub/agricultural/2026-11-22/Agricultural Statistics 2025 - EN (1).xlsx",
+"size": 480042,
+"status": "downloaded",
+"t": 1795296579308
+},
 "/documents/20117/2435281/Livestock+Statistics+2025+EN.xlsx/b7d5e41f-546c-0004-2f27-849c50ed6324": {
 "at": "2026-11-16",
 "path": "raw/history/gastat_pub/livestock/2026-11-16/Livestock Statistics 2025 EN.xlsx",
@@ -865,16 +879,6 @@
 "last_discover": "2026-11-17",
 "normalize_pending": [],
 "runs": [
-{
-"added": 0,
-"date": "2026-10-23",
-"failed": 0,
-"full_discover": false,
-"listing_failures": 0,
-"mb": 0.0,
-"mode": "update",
-"skipped_size": 0
-},
 {
 "added": 0,
 "date": "2026-10-24",
@@ -1162,6 +1166,16 @@
 "full_discover": false,
 "listing_failures": 0,
 "mb": 0.0,
+"mode": "update",
+"skipped_size": 0
+},
+{
+"added": 2,
+"date": "2026-11-22",
+"failed": 0,
+"full_discover": false,
+"listing_failures": 0,
+"mb": 0.9,
 "mode": "update",
 "skipped_size": 0
 }
