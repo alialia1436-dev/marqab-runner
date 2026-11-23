@@ -294,6 +294,13 @@
 "status": "downloaded",
 "t": 1782102728059
 },
+"/documents/20117/2435267/CCI-Oct+2026-AR-EN+%281%29.xlsx/fd1be152-e71c-4eb5-d8a4-1337c0e876ab": {
+"at": "2026-11-23",
+"path": "raw/history/gastat_pub/the_construction_cost_index/2026-11-23/CCI-Oct 2026-AR-EN (1).xlsx",
+"size": 214622,
+"status": "downloaded",
+"t": 1795346874696
+},
 "/documents/20117/2435267/CCI-Sep+2026-AR-EN+%281%29.xlsx/9a1e3705-cafc-1c70-7e0d-af7b4f92bd15": {
 "at": "2026-10-22",
 "path": "raw/history/gastat_pub/the_construction_cost_index/2026-10-22/CCI-Sep 2026-AR-EN (1).xlsx",
@@ -881,16 +888,6 @@
 "runs": [
 {
 "added": 0,
-"date": "2026-10-24",
-"failed": 0,
-"full_discover": false,
-"listing_failures": 0,
-"mb": 0.0,
-"mode": "update",
-"skipped_size": 0
-},
-{
-"added": 0,
 "date": "2026-10-25",
 "failed": 0,
 "full_discover": false,
@@ -1176,6 +1173,16 @@
 "full_discover": false,
 "listing_failures": 0,
 "mb": 0.9,
+"mode": "update",
+"skipped_size": 0
+},
+{
+"added": 1,
+"date": "2026-11-23",
+"failed": 0,
+"full_discover": false,
+"listing_failures": 0,
+"mb": 0.2,
 "mode": "update",
 "skipped_size": 0
 }
