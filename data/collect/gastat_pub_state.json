@@ -470,12 +470,26 @@
 "status": "downloaded",
 "t": 1794239387772
 },
+"/documents/20117/2435267/ITR+JUL2024E.xlsx/ef6adf8f-ce93-61e3-c840-256efce3ce56": {
+"at": "2026-11-24",
+"path": "raw/history/gastat_pub/international_trade_for_goods/2026-11-24/ITR JUL2024E.xlsx",
+"size": 312673,
+"status": "downloaded",
+"t": 1795515455104
+},
 "/documents/20117/2435267/ITR+Jul+2026+%281%29.xlsx/239f6a92-a432-ebf5-da8b-45a43ccd1c1c": {
 "at": "2026-10-01",
 "path": "raw/history/gastat_pub/international_trade_for_goods/2026-10-01/ITR Jul 2026 (1).xlsx",
 "size": 2134163,
 "status": "downloaded",
 "t": 1790669085098
+},
+"/documents/20117/2435267/ITR+MAY2024E.xlsx/2319125f-452a-db51-d8fa-395c81706e50": {
+"at": "2026-11-24",
+"path": "raw/history/gastat_pub/international_trade_for_goods/2026-11-24/ITR MAY2024E.xlsx",
+"size": 315017,
+"status": "downloaded",
+"t": 1795515873273
 },
 "/documents/20117/2435267/ITR+non-oil+Aug2026+%281%29.xlsx/d2187deb-5108-75fc-73b6-fdd500f61cbf": {
 "at": "2026-10-01",
@@ -765,6 +779,13 @@
 "status": "downloaded",
 "t": 1795296579308
 },
+"/documents/20117/2435281/Electrical+Energy+Statistics+2025+EN.xlsx/7d6e038b-0d54-f392-cb32-0d95bc8fb6da": {
+"at": "2026-11-24",
+"path": "raw/history/gastat_pub/electrical_energy/2026-11-24/Electrical Energy Statistics 2025 EN.xlsx",
+"size": 246328,
+"status": "downloaded",
+"t": 1795433701099
+},
 "/documents/20117/2435281/Livestock+Statistics+2025+EN.xlsx/b7d5e41f-546c-0004-2f27-849c50ed6324": {
 "at": "2026-11-16",
 "path": "raw/history/gastat_pub/livestock/2026-11-16/Livestock Statistics 2025 EN.xlsx",
@@ -883,19 +904,9 @@
 "t": 0
 }
 },
-"last_discover": "2026-11-17",
+"last_discover": "2026-11-24",
 "normalize_pending": [],
 "runs": [
-{
-"added": 0,
-"date": "2026-10-25",
-"failed": 0,
-"full_discover": false,
-"listing_failures": 0,
-"mb": 0.0,
-"mode": "update",
-"skipped_size": 0
-},
 {
 "added": 2,
 "date": "2026-10-26",
@@ -1183,6 +1194,16 @@
 "full_discover": false,
 "listing_failures": 0,
 "mb": 0.2,
+"mode": "update",
+"skipped_size": 0
+},
+{
+"added": 3,
+"date": "2026-11-24",
+"failed": 0,
+"full_discover": true,
+"listing_failures": 0,
+"mb": 0.9,
 "mode": "update",
 "skipped_size": 0
 }
