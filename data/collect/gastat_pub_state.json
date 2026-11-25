@@ -505,6 +505,20 @@
 "status": "downloaded",
 "t": 1792953944026
 },
+"/documents/20117/2435267/ITR_Sep2026+%281%29.xlsx/07c720b6-eeac-d5d8-0ade-398251014e53": {
+"at": "2026-11-25",
+"path": "raw/history/gastat_pub/international_trade_for_goods/2026-11-25/ITR_Sep2026 (1).xlsx",
+"size": 2254985,
+"status": "downloaded",
+"t": 1795537636952
+},
+"/documents/20117/2435267/ITR_non-oil_Oct2026+%281%29.xlsx/341e77c3-00d2-acba-76d8-add1aa152268": {
+"at": "2026-11-25",
+"path": "raw/history/gastat_pub/international_trade_for_goods/2026-11-25/ITR_non-oil_Oct2026 (1).xlsx",
+"size": 467230,
+"status": "downloaded",
+"t": 1795537895509
+},
 "/documents/20117/2435267/ITR_non_oil_Sep2026+%281%29.xlsx/6352dc8a-015b-be90-cf35-c0b0a3c63ab7": {
 "at": "2026-10-26",
 "path": "raw/history/gastat_pub/international_trade_for_goods/2026-10-26/ITR_non_oil_Sep2026 (1).xlsx",
@@ -908,16 +922,6 @@
 "normalize_pending": [],
 "runs": [
 {
-"added": 2,
-"date": "2026-10-26",
-"failed": 0,
-"full_discover": false,
-"listing_failures": 0,
-"mb": 2.6,
-"mode": "update",
-"skipped_size": 0
-},
-{
 "added": 1,
 "date": "2026-10-27",
 "failed": 0,
@@ -1204,6 +1208,16 @@
 "full_discover": true,
 "listing_failures": 0,
 "mb": 0.9,
+"mode": "update",
+"skipped_size": 0
+},
+{
+"added": 2,
+"date": "2026-11-25",
+"failed": 0,
+"full_discover": false,
+"listing_failures": 0,
+"mb": 2.7,
 "mode": "update",
 "skipped_size": 0
 }
